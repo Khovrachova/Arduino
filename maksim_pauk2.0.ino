@@ -3,10 +3,11 @@
 IRrecv irrecv(A3); // указываем пин, к которому подключен IR приемник
 decode_results results;
 #include <Servo.h>
+
 Servo servo_L12;
 Servo servo_L11;
 Servo servo_R12;
- Servo servo_R11;
+Servo servo_R11;
 
 Servo servo_ZaD_L21;
 Servo servo_ZaD_R21;
